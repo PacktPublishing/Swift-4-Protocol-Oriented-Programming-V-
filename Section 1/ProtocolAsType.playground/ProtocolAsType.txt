@@ -1,0 +1,28 @@
+func updatePerson(person: Person) -> Person {
+ var newPerson: Person
+ // Code to update person goes here
+ return newPerson
+}
+
+var personArray = [Person]()
+var personDict = [String: Person]()
+
+var myPerson: Person
+myPerson = SwiftProgrammer(firstName: "Jon", lastName: "Hoffman",birthDate: birthDateProgrammer)
+myPerson = FootballPlayer(firstName: "Dan", lastName: "Marino", birthdate: birthDatePlayer)
+
+var programmer = SwiftProgrammer(firstName: "Jon", lastName: "Hoffman", birthDate: bDateProgrammer)
+var player = FootballPlayer(firstName: "Dan", lastName: "Marino", birthDate: bDatePlayer)
+var people: [Person] = [] people.append(programmer) people.append(player)
+
+if person is SwiftProgrammer{
+	print("(person.firstName) is a Swift Programmer")
+}
+
+for person in people where person is SwiftProgrammer{
+	print("(person.firstName) is a Swift Programmer")
+}
+
+if let _ = person as? SwiftProgrammer{
+	print("(person.firstName) is a Swift Programmer")
+}

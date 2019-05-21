@@ -1,0 +1,21 @@
+Protocol MyProtocol{
+  //protocol definition here
+}
+
+struct MyStruct: MyProtocol, AnotherProtocol, ThirdProtocol{
+  //structure implementation here
+}
+
+
+protocol FullName{
+  var firstName: String{get set}
+  var lastName: String{get set}
+}
+
+var readOnly: String{get}
+
+static var typeProperty: String{get}
+
+protocol ProtocolThree: ProtocolOne, ProtocolTwo{
+  //Add requirements here
+}

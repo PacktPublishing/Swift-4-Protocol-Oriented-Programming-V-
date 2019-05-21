@@ -1,0 +1,11 @@
+struct LinkedListValueType {
+ var value: String
+ var next: LinkedListValueType?
+}
+
+var one = LinkedListValueType(value: "One",next: nil)
+var two = LinkedListValueType (value: "Two",next: nil)
+var three = LinkedListValueType (value: "Three",next: nil)
+
+one.next = two
+two.next = three

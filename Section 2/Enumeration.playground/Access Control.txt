@@ -1,0 +1,7 @@
+private struct EmployeeStruct {}
+public var firstName = "Jon"
+internal var lastName = "Hoffman"
+private var salaryYear = 0.0
+public func getFullName() -> String {}
+fileprivate func giveBonus(amount: Double) {}
+open func giveRaise(amount: Double) {}
