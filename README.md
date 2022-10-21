@@ -30,3 +30,7 @@ Swift 4
 
 * [Troubleshooting Vue.js [Video]](https://www.packtpub.com/application-development/troubleshooting-vuejs-video?utm_source=github&utm_medium=repository&utm_campaign=9781788993531)
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to download a free PDF copy of this book.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781787129948">https://packt.link/free-ebook/9781787129948 </a> </p>
